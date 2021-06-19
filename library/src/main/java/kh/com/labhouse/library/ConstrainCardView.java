@@ -1,4 +1,4 @@
-package kh.com.labhouse.constraintcardview.widget;
+package kh.com.labhouse.library;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -15,7 +15,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.Px;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import kh.com.labhouse.constraintcardview.R;
+import kh.com.labhouse.library.widget.CardViewApi21Impl;
+import kh.com.labhouse.library.widget.CardViewDelegate;
+import kh.com.labhouse.library.widget.CardViewImpl;
 
 public class ConstrainCardView extends ConstraintLayout {
 

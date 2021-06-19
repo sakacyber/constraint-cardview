@@ -1,9 +1,9 @@
-package kh.com.labhouse.constraintcardview.widget;
+package kh.com.labhouse.library.widget;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-interface CardViewDelegate {
+public interface CardViewDelegate {
     void setCardBackground(Drawable drawable);
     Drawable getCardBackground();
     boolean getUseCompatPadding();

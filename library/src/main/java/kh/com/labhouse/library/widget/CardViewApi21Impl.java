@@ -1,4 +1,4 @@
-package kh.com.labhouse.constraintcardview.widget;
+package kh.com.labhouse.library.widget;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-class CardViewApi21Impl implements CardViewImpl {
+public class CardViewApi21Impl implements CardViewImpl {
 
     @Override
     public void initialize(CardViewDelegate cardView, Context context,
